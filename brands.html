@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For brands — Odile Home</title>
+<meta name="description" content="Open a wholesale account with Odile Home, an independent home-textiles retailer selling on Amazon and direct. Case quantities, invoiced, resale certificate on file.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="wordmark" href="/">Odile<span>.</span></a>
+  <nav><a href="/">Home</a><a href="/about">About</a><a href="/brands">For brands</a><a href="/contact">Contact</a></nav>
+</header>
+<main><section class="page">
+  <p class="eyebrow">For brands and distributors</p>
+  <h1>We'd like to buy from you.</h1>
+  <p>Odile Home opens wholesale accounts with home-textile brands and their authorized distributors. We order in case quantities, pay by card or on the terms you set, and present your products on Amazon and our own store exactly the way you specify. Tell us who you are and we'll come back the same business day with our resale certificate, W-9 and a first order in mind.</p>
+
+  <h2>What we bring</h2>
+  <dl>
+    <dt>Volume</dt><dd>Case-quantity opening orders, reorders monthly as listings prove out</dd>
+    <dt>Pricing discipline</dt><dd>MAP respected without exception; no coupon stacking, no bundling without approval</dd>
+    <dt>Listing quality</dt><dd>Your titles, your images, your packaging; FBA prep to Amazon's standard</dd>
+    <dt>Paperwork</dt><dd>Florida resale certificate, W-9, EIN and business address on file for you</dd>
+    <dt>One contact</dt><dd>Tolga Coskun, owner and buyer, by email or phone</dd>
+  </dl>
+
+  <h2>Request a wholesale account</h2>
+  <form method="post" action="https://api.odilelabs.com/partners">
+    <div class="two">
+      <label>Your company <input name="company" required></label>
+      <label>Your name <input name="name" required></label>
+    </div>
+    <div class="two">
+      <label>Email <input name="email" type="email" required></label>
+      <label>Phone <input name="phone"></label>
+    </div>
+    <label>You are a
+      <select name="kind"><option>Brand</option><option>Authorized distributor</option><option>Manufacturer</option><option>Other</option></select>
+    </label>
+    <label>Products you'd like us to carry <textarea name="products" rows="3" placeholder="e.g. Turkish cotton bath towels, waffle kitchen towels, pestemals"></textarea></label>
+    <label>Anything we should know <textarea name="notes" rows="3" placeholder="minimums, terms, whether you have an Amazon policy"></textarea></label>
+    <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+    <div><button class="btn" type="submit">Send the request</button></div>
+    <p class="small" style="color:var(--mute);font-size:13px">You'll hear from Tolga the same business day. We don't share your details.</p>
+  </form>
+</section></main>
+<footer>
+  <div><b>Odile Home</b> · OdileUSA L.L.C. · 7901 4th St N Ste 300, St. Petersburg, FL 33702</div>
+  <div>OdileUSA L.L.C. also operates <a href="https://odilelabs.com">After Hours by Odile</a>, an AI phone receptionist for local service businesses.</div>
+  <div><a href="mailto:tolga@odilewholesale.com">tolga@odilewholesale.com</a></div>
+  <div><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></div>
+</footer>
+</body>
+</html>
